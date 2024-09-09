@@ -15,3 +15,18 @@
     </form>
 </body>
 </html>
+
+<?php
+session_start();
+include "db_conn.php";
+
+
+$sql = "INSERT INTO `skilltest`(`Title`, `Description`, `Photo`) VALUES ('ptitle','description','photo')";
+
+
+<?php
+session_start();
+include "db_conn.php";
+
+
+$sql = "SELECT * FROM skilltest";
