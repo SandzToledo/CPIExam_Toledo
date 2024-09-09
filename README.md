@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-    <form action="login.php" method="post">
+    <form action="update.php" method="post">
         <h>CREATE</h><br>
         <label> Post Title </label>
         <input type="text" name="ptitle" placeholder="Title"><br>
